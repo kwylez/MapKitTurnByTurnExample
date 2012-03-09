@@ -12,14 +12,14 @@
 @implementation RootViewController
 
 @synthesize mapView         = _mapView;
-@synthesize newAnnotation   = _newAnnotation;
 @synthesize locationManager = _locationManager;
+@synthesize mapAnnotation   = _mapAnnotation;
 @synthesize _lat;
 @synthesize _long;
 
 - (void)dealloc {
   [_mapView release];
-  [_newAnnotation release];
+  [_mapAnnotation release];
   _locationManager.delegate = nil;
   [_locationManager release];
   [_lat release];
@@ -60,15 +60,15 @@
 
   CLLocation* currentLocation = [[[CLLocation alloc] initWithLatitude:latitude longitude:longitude] autorelease];
     
-  self.newAnnotation = [Annotation annotationWithCoordinate:currentLocation.coordinate];
-  self.newAnnotation.title    = @"Sekisui Pacific Rim";
-  self.newAnnotation.subtitle = @"Cory's Favorite Sushi Place in Memphis";
+  self.mapAnnotation = [Annotation annotationWithCoordinate:currentLocation.coordinate];
+  self.mapAnnotation.title    = @"Sekisui Pacific Rim";
+  self.mapAnnotation.subtitle = @"Cory's Favorite Sushi Place in Memphis";
   
-  if (nil != self.newAnnotation) {
+  if (nil != self.mapAnnotation) {
     
-    [self.mapView addAnnotation:self.newAnnotation];
+    [self.mapView addAnnotation:self.mapAnnotation];
     
-    self.newAnnotation = nil;
+    self.mapAnnotation = nil;
   }
   
   [self setCurrentLocation:currentLocation];
@@ -81,7 +81,7 @@
 - (void)viewDidUnload {
 
   self.mapView         = nil;
-  self.newAnnotation   = nil;
+  self.mapAnnotation   = nil;
   self.locationManager = nil;
 }
 
