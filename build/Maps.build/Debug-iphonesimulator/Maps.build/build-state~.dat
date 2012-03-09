@@ -1,876 +1,0 @@
-TMaps
-v7
-r0
-t291008694.020103
-cCheck dependencies
-cProcessInfoPlistFile "/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/Info.plist" Maps-Info.plist
-cCompileXIB "/Users/cwiles/iPhone Projects/Maps/MainWindow.xib"
-cCompileXIB "/Users/cwiles/iPhone Projects/Maps/RootViewController.xib"
-cCompileXIB "/Users/cwiles/iPhone Projects/Maps/GMapDirectionsView.xib"
-cCpResource build/Debug-iphonesimulator/Maps.app/Three20.bundle ../External-Libraries/320/src/Three20.bundle
-cProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-chsdehvynwffushfupxzczkisbcy/Maps_Prefix.pch.gch Maps_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/main.o "/Users/cwiles/iPhone Projects/Maps/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/MapsAppDelegate.o "/Users/cwiles/iPhone Projects/Maps/Classes/MapsAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/RootViewController.o "/Users/cwiles/iPhone Projects/Maps/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/Annotation.o "/Users/cwiles/iPhone Projects/Maps/Classes/Annotation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/GMapDirectionsViewController.o "/Users/cwiles/iPhone Projects/Maps/Classes/GMapDirectionsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/Maps" normal i386
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
-c000000004AD4D0F600000000000000EE
-t1255461110
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004ABDC853000000000026EE30
-t1253951571
-s2551344
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004ABDEE58000000000004AFE0
-t1253961304
-s307168
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004ABDEE5400000000000001AF
-t1253961300
-s431
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004ABDC952000000000027E880
-t1253951826
-s2615424
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004ABDC93F0000000000001355
-t1253951807
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004ABDEF74000000000000017D
-t1253961588
-s381
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004ABDEF82000000000010EB60
-t1253961602
-s1108832
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004ABDEE1D0000000000000788
-t1253961245
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004ABDEEE200000000016721E0
-t1253961442
-s23536096
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/Availability.h
-c000000004ABDCA4700000000000019F9
-t1253952071
-s6649
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
-c000000004B69B45C00000000000000EE
-t1265218652
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004B2B4CC3000000000026EE30
-t1261128899
-s2551344
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004B2B61C3000000000004AFC0
-t1261134275
-s307136
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004B2B61BC00000000000001AF
-t1261134268
-s431
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004B2B4DC8000000000027E880
-t1261129160
-s2615424
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B2B4DAE0000000000001355
-t1261129134
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004B2B634C000000000000017D
-t1261134668
-s381
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004B2B6372000000000010EB60
-t1261134706
-s1108832
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004B2B540C00000000000E5890
-t1261130764
-s940176
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004B2B61620000000000000788
-t1261134178
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004B2B62B500000000016721E0
-t1261134517
-s23536096
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/Availability.h
-c000000004B2B4EE200000000000019F9
-t1261129442
-s6649
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
-c000000004AF0C10000000000000000EE
-t1257292032
-s238
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004ABDC853000000000026EE30
-t1253951571
-s2551344
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004ABDEE58000000000004AFE0
-t1253961304
-s307168
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004ABDEE5400000000000001AF
-t1253961300
-s431
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004ABDC952000000000027E880
-t1253951826
-s2615424
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004ABDC93F0000000000001355
-t1253951807
-s4949
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004ABDEF74000000000000017D
-t1253961588
-s381
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004ABDEF82000000000010EB60
-t1253961602
-s1108832
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004ABDEE1D0000000000000788
-t1253961245
-s1928
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004ABDEEE200000000016721E0
-t1253961442
-s23536096
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/Availability.h
-c000000004ABDCA4700000000000019F9
-t1253952071
-s6649
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
-c000000004B69B45C00000000000000EE
-t1265218652
-s238
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004B2B4CC3000000000026EE30
-t1261128899
-s2551344
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004B2B61C3000000000004AFC0
-t1261134275
-s307136
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004B2B61BC00000000000001AF
-t1261134268
-s431
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004B2B4DC8000000000027E880
-t1261129160
-s2615424
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B2B4DAE0000000000001355
-t1261129134
-s4949
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004B2B634C000000000000017D
-t1261134668
-s381
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004B2B6372000000000010EB60
-t1261134706
-s1108832
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004B2B61620000000000000788
-t1261134178
-s1928
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004B2B62B500000000016721E0
-t1261134517
-s23536096
-
-N/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/Availability.h
-c000000004B2B4EE200000000000019F9
-t1261129442
-s6649
-
-N/Users/cwiles/Desktop/Maps/Classes/Annotation.h
-c000000004BA3D96A000000000000028E
-t1269029226
-s654
-i<Foundation/Foundation.h>
-i<CoreLocation/CoreLocation.h>
-i<MapKit/MapKit.h>
-
-N/Users/cwiles/Desktop/Maps/Classes/Annotation.m
-c000000004BA3D871000000000000025C
-t1269028977
-s604
-i"Annotation.h"
-
-N/Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.h
-c000000004BA3CBE100000000000001AB
-t1269025761
-s427
-
-N/Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m
-c000000004BA3CBE10000000000000324
-t1269025761
-s804
-i"MapsAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/cwiles/Desktop/Maps/Classes/RootViewController.h
-c000000004BA3D8AF00000000000001C8
-t1269029039
-s456
-i<MapKit/MapKit.h>
-
-N/Users/cwiles/Desktop/Maps/Classes/RootViewController.m
-c000000004BA3F296000000000000089A
-t1269035670
-s2202
-i"RootViewController.h"
-i"Annotation.h"
-
-N/Users/cwiles/Desktop/Maps/MainWindow.xib
-c000000004BA3D66A0000000000005B66
-t1269028458
-s23398
-
-N/Users/cwiles/Desktop/Maps/Maps_Prefix.pch
-c000000004BA3CBE1000000000000013A
-t1269025761
-s314
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/Desktop/Maps/RootViewController.xib
-c000000004BA3EA6600000000000043A4
-t1269033574
-s17316
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app
-t1269035671
-s238
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app.dSYM
-t1269035671
-s102
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/Info.plist
-t1269027626
-s552
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/MainWindow.nib
-t1269029202
-s2177
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/Maps
-t1269035671
-s25680
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/PkgInfo
-t1269027626
-s8
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/RootViewController.nib
-t1269034933
-s1745
-
-N/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/Annotation.o
-t1269029227
-s12044
-
-N/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/Maps.LinkFileList
-c000000004BA3D95100000000000001BF
-t1269029201
-s447
-
-N/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/MapsAppDelegate.o
-t1269029202
-s39760
-
-N/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/RootViewController.o
-t1269035671
-s38232
-
-N/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/main.o
-t1269027628
-s5932
-
-N/Users/cwiles/Desktop/Maps/main.m
-c000000004BA3CBE10000000000000160
-t1269025761
-s352
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/iPhone Projects/External-Libraries/320/src/build/Debug-iphonesimulator/libThree20.a
-c000000004BA8392D00000000003E1D60
-t1269315885
-s4070752
-
-N/Users/cwiles/iPhone Projects/Maps/../External-Libraries/320/src/Three20.bundle
-c000000004B44FC6A0000000000000176
-t1262812266
-s374
-
-N/Users/cwiles/iPhone Projects/Maps/Classes/Annotation.h
-c000000004BA3D96A000000000000028E
-t1269029226
-s654
-i<Foundation/Foundation.h>
-i<CoreLocation/CoreLocation.h>
-i<MapKit/MapKit.h>
-
-N/Users/cwiles/iPhone Projects/Maps/Classes/Annotation.m
-c000000004BA3D871000000000000025C
-t1269028977
-s604
-i"Annotation.h"
-
-N/Users/cwiles/iPhone Projects/Maps/Classes/GMapDirections.h
-c000000004BA5080D00000000000000D4
-t1269106701
-s212
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/iPhone Projects/Maps/Classes/GMapDirections.m
-c000000004BA5080D0000000000000602
-t1269106701
-s1538
-i"GMapDirections.h"
-
-N/Users/cwiles/iPhone Projects/Maps/Classes/GMapDirectionsViewController.h
-c000000004BA50A7B00000000000001B0
-t1269107323
-s432
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/iPhone Projects/Maps/Classes/GMapDirectionsViewController.m
-c000000004BA678120000000000000783
-t1269200914
-s1923
-i"GMapDirectionsViewController.h"
-
-N/Users/cwiles/iPhone Projects/Maps/Classes/MapsAppDelegate.h
-c000000004BA3CBE100000000000001AB
-t1269025761
-s427
-
-N/Users/cwiles/iPhone Projects/Maps/Classes/MapsAppDelegate.m
-c000000004BA3CBE10000000000000324
-t1269025761
-s804
-i"MapsAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/cwiles/iPhone Projects/Maps/Classes/RootViewController.h
-c000000004BA510FC0000000000000244
-t1269108988
-s580
-i<MapKit/MapKit.h>
-i"RootViewController.h"
-i"GMapDirectionsViewController.h"
-
-N/Users/cwiles/iPhone Projects/Maps/Classes/RootViewController.m
-c000000004BA677900000000000000EF4
-t1269200784
-s3828
-i"RootViewController.h"
-i"Annotation.h"
-
-N/Users/cwiles/iPhone Projects/Maps/GMapDirectionsView.xib
-c000000004BA50B1A00000000000051AA
-t1269107482
-s20906
-
-N/Users/cwiles/iPhone Projects/Maps/MainWindow.xib
-c000000004BA6790B0000000000005FE4
-t1269201163
-s24548
-
-N/Users/cwiles/iPhone Projects/Maps/Maps_Prefix.pch
-c000000004BA3CBE1000000000000013A
-t1269025761
-s314
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/iPhone Projects/Maps/RootViewController.xib
-c000000004BA3EA6600000000000043A4
-t1269033574
-s17316
-
-N/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app
-t2
-s0
-
-N/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app.dSYM
-t2
-s0
-
-N/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/GMapDirectionsView.nib
-t1269315892
-s1775
-
-N/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/Info.plist
-t1269315885
-s581
-
-N/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/MainWindow.nib
-t1269315890
-s2159
-
-N/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/Maps
-t2
-s0
-
-N/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/PkgInfo
-t1269315885
-s8
-
-N/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/RootViewController.nib
-t1269315891
-s1745
-
-N/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/Three20.bundle
-t1269315891
-s374
-
-N/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/Annotation.o
-t1269315893
-s12052
-
-N/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/GMapDirections.o
-t2
-s0
-
-N/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/GMapDirectionsViewController.o
-t1269315893
-s36388
-
-N/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/Maps.LinkFileList
-c000000004BA8392D0000000000000267
-t1269315885
-s615
-
-N/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/MapsAppDelegate.o
-t1269315893
-s39768
-
-N/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/RootViewController.o
-t1269315893
-s43436
-
-N/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/main.o
-t1269315893
-s5940
-
-N/Users/cwiles/iPhone Projects/Maps/main.m
-c000000004BA3CBE10000000000000160
-t1269025761
-s352
-i<UIKit/UIKit.h>
-
-N/var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Maps_Prefix-gveussbtcfkczjgfppuiaqreifhz/Maps_Prefix.pch.gch
-t1269027627
-s13034960
-
-N/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-bftcpvwebqedkiatthruzmwatmjv/Maps_Prefix.pch.gch
-t1269195350
-s13026768
-
-N/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-chsdehvynwffushfupxzczkisbcy/Maps_Prefix.pch.gch
-t1269315892
-s13026768
-
-N/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-dbjjovmefhplieavudlnsbckreat/Maps_Prefix.pch.gch
-t1269225175
-s13034960
-
-N/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-faenzaxoohaltsgrjupjiavzcozi/Maps_Prefix.pch.gch
-t1269104900
-s13026768
-
-N/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-ghyclryuslpmilackjtlsqncplsn/Maps_Prefix.pch.gch
-t2
-s0
-
-NMaps-Info.plist
-c000000004BA3CBE1000000000000038D
-t1269025761
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies291008685#291008685#0(0"0(0#1#0"4300911832#0"0#
-
-CCompileC build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/Annotation.o "/Users/cwiles/iPhone Projects/Maps/Classes/Annotation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s291008693.178886
-e291008693.269870
-r1
-xCompileC
-xbuild/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/Annotation.o
-x/Users/cwiles/iPhone Projects/Maps/Classes/Annotation.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/cwiles/iPhone Projects/Maps/Classes/Annotation.m291008693#291008693#0(0"0(0#0#55"/Users/cwiles/iPhone Projects/Maps/Classes/Annotation.m4300911832#2098"    cd "/Users/cwiles/iPhone Projects/Maps"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/include" -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I../External-Libraries/320/src/JSON -I../External-Libraries/320/src/tests -I../External-Libraries/320/src/Three20 -I../External-Libraries/320/src/Three20.bundle -I../External-Libraries/320/src/Three20.bundle/images "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-chsdehvynwffushfupxzczkisbcy/Maps_Prefix.pch -c "/Users/cwiles/iPhone Projects/Maps/Classes/Annotation.m" -o "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/Annotation.o"0#
-
-CCompileC build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/Annotation.o /Users/cwiles/Desktop/Maps/Classes/Annotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290722027.063676
-e290722027.146778
-r1
-xCompileC
-xbuild/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/Annotation.o
-x/Users/cwiles/Desktop/Maps/Classes/Annotation.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/cwiles/Desktop/Maps/Classes/Annotation.m290722027#290722027#0(0"0(0#0#47"/Users/cwiles/Desktop/Maps/Classes/Annotation.m4300885448#1687"    cd /Users/cwiles/Desktop/Maps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-generated-files.hmap -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-own-target-headers.hmap -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-all-target-headers.hmap -iquote /Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-project-headers.hmap -F/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources/i386 -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Maps_Prefix-gveussbtcfkczjgfppuiaqreifhz/Maps_Prefix.pch -c /Users/cwiles/Desktop/Maps/Classes/Annotation.m -o /Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/Annotation.o0#
-
-CCompileC build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/GMapDirections.o "/Users/cwiles/iPhone Projects/Maps/Classes/GMapDirections.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/GMapDirectionsViewController.o "/Users/cwiles/iPhone Projects/Maps/Classes/GMapDirectionsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s291008693.195181
-e291008693.282689
-r1
-xCompileC
-xbuild/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/GMapDirectionsViewController.o
-x/Users/cwiles/iPhone Projects/Maps/Classes/GMapDirectionsViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/cwiles/iPhone Projects/Maps/Classes/GMapDirectionsViewController.m291008693#291008693#0(0"0(0#0#73"/Users/cwiles/iPhone Projects/Maps/Classes/GMapDirectionsViewController.m4300911832#2134"    cd "/Users/cwiles/iPhone Projects/Maps"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/include" -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I../External-Libraries/320/src/JSON -I../External-Libraries/320/src/tests -I../External-Libraries/320/src/Three20 -I../External-Libraries/320/src/Three20.bundle -I../External-Libraries/320/src/Three20.bundle/images "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-chsdehvynwffushfupxzczkisbcy/Maps_Prefix.pch -c "/Users/cwiles/iPhone Projects/Maps/Classes/GMapDirectionsViewController.m" -o "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/GMapDirectionsViewController.o"0#
-
-CCompileC build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/MapsAppDelegate.o "/Users/cwiles/iPhone Projects/Maps/Classes/MapsAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s291008692.945072
-e291008693.178779
-r1
-xCompileC
-xbuild/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/MapsAppDelegate.o
-x/Users/cwiles/iPhone Projects/Maps/Classes/MapsAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/cwiles/iPhone Projects/Maps/Classes/MapsAppDelegate.m291008692#291008693#0(0"0(0#0#60"/Users/cwiles/iPhone Projects/Maps/Classes/MapsAppDelegate.m4300911832#2108"    cd "/Users/cwiles/iPhone Projects/Maps"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/include" -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I../External-Libraries/320/src/JSON -I../External-Libraries/320/src/tests -I../External-Libraries/320/src/Three20 -I../External-Libraries/320/src/Three20.bundle -I../External-Libraries/320/src/Three20.bundle/images "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-chsdehvynwffushfupxzczkisbcy/Maps_Prefix.pch -c "/Users/cwiles/iPhone Projects/Maps/Classes/MapsAppDelegate.m" -o "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/MapsAppDelegate.o"0#
-
-CCompileC build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/MapsAppDelegate.o /Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290722002.172389
-e290722002.265344
-r1
-xCompileC
-xbuild/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/MapsAppDelegate.o
-x/Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m290722002#290722002#0(0"0(0#0#52"/Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m4300885448#1697"    cd /Users/cwiles/Desktop/Maps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-generated-files.hmap -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-own-target-headers.hmap -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-all-target-headers.hmap -iquote /Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-project-headers.hmap -F/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources/i386 -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Maps_Prefix-gveussbtcfkczjgfppuiaqreifhz/Maps_Prefix.pch -c /Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m -o /Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/MapsAppDelegate.o0#
-
-CCompileC build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/RootViewController.o "/Users/cwiles/iPhone Projects/Maps/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s291008693.016575
-e291008693.195084
-r1
-xCompileC
-xbuild/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/RootViewController.o
-x/Users/cwiles/iPhone Projects/Maps/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/cwiles/iPhone Projects/Maps/Classes/RootViewController.m291008693#291008693#0(0"0(0#0#63"/Users/cwiles/iPhone Projects/Maps/Classes/RootViewController.m4300911832#2114"    cd "/Users/cwiles/iPhone Projects/Maps"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/include" -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I../External-Libraries/320/src/JSON -I../External-Libraries/320/src/tests -I../External-Libraries/320/src/Three20 -I../External-Libraries/320/src/Three20.bundle -I../External-Libraries/320/src/Three20.bundle/images "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-chsdehvynwffushfupxzczkisbcy/Maps_Prefix.pch -c "/Users/cwiles/iPhone Projects/Maps/Classes/RootViewController.m" -o "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/RootViewController.o"0#
-
-CCompileC build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/RootViewController.o /Users/cwiles/Desktop/Maps/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290728471.464035
-e290728471.611766
-r1
-xCompileC
-xbuild/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/RootViewController.o
-x/Users/cwiles/Desktop/Maps/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/cwiles/Desktop/Maps/Classes/RootViewController.m290728471#290728471#0(0"0(0#0#55"/Users/cwiles/Desktop/Maps/Classes/RootViewController.m4300885448#1703"    cd /Users/cwiles/Desktop/Maps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-generated-files.hmap -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-own-target-headers.hmap -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-all-target-headers.hmap -iquote /Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-project-headers.hmap -F/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources/i386 -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Maps_Prefix-gveussbtcfkczjgfppuiaqreifhz/Maps_Prefix.pch -c /Users/cwiles/Desktop/Maps/Classes/RootViewController.m -o /Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/RootViewController.o0#
-
-CCompileC build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/main.o "/Users/cwiles/iPhone Projects/Maps/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s291008692.944016
-e291008693.016471
-r1
-xCompileC
-xbuild/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/main.o
-x/Users/cwiles/iPhone Projects/Maps/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@49"Compile /Users/cwiles/iPhone Projects/Maps/main.m291008692#291008693#0(0"0(0#0#41"/Users/cwiles/iPhone Projects/Maps/main.m4300911832#2078"    cd "/Users/cwiles/iPhone Projects/Maps"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/include" -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I../External-Libraries/320/src/JSON -I../External-Libraries/320/src/tests -I../External-Libraries/320/src/Three20 -I../External-Libraries/320/src/Three20.bundle -I../External-Libraries/320/src/Three20.bundle/images "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-chsdehvynwffushfupxzczkisbcy/Maps_Prefix.pch -c "/Users/cwiles/iPhone Projects/Maps/main.m" -o "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/main.o"0#
-
-CCompileC build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/main.o /Users/cwiles/Desktop/Maps/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s290720427.792038
-e290720428.058891
-r1
-xCompileC
-xbuild/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/main.o
-x/Users/cwiles/Desktop/Maps/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@41"Compile /Users/cwiles/Desktop/Maps/main.m290720427#290720428#0(0"0(0#0#33"/Users/cwiles/Desktop/Maps/main.m4300885448#1667"    cd /Users/cwiles/Desktop/Maps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-generated-files.hmap -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-own-target-headers.hmap -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-all-target-headers.hmap -iquote /Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-project-headers.hmap -F/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources/i386 -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Maps_Prefix-gveussbtcfkczjgfppuiaqreifhz/Maps_Prefix.pch -c /Users/cwiles/Desktop/Maps/main.m -o /Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/main.o0#
-
-CCompileXIB "/Users/cwiles/iPhone Projects/Maps/GMapDirectionsView.xib"
-s291008690.464764
-e291008692.228939
-r1
-xCompileXIB
-x/Users/cwiles/iPhone Projects/Maps/GMapDirectionsView.xib
-lSLF07#2@33"CompileXIB GMapDirectionsView.xib291008690#291008692#0(0"0(0#0#57"/Users/cwiles/iPhone Projects/Maps/GMapDirectionsView.xib4300911832#487"    cd "/Users/cwiles/iPhone Projects/Maps"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/GMapDirectionsView.nib" "/Users/cwiles/iPhone Projects/Maps/GMapDirectionsView.xib"0#
-
-CCompileXIB "/Users/cwiles/iPhone Projects/Maps/MainWindow.xib"
-s291008685.092487
-e291008690.464549
-r1
-xCompileXIB
-x/Users/cwiles/iPhone Projects/Maps/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib291008685#291008690#0(0"0(0#0#49"/Users/cwiles/iPhone Projects/Maps/MainWindow.xib4300911832#471"    cd "/Users/cwiles/iPhone Projects/Maps"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/MainWindow.nib" "/Users/cwiles/iPhone Projects/Maps/MainWindow.xib"0#
-
-CCompileXIB "/Users/cwiles/iPhone Projects/Maps/RootViewController.xib"
-s291008685.094165
-e291008691.503077
-r1
-xCompileXIB
-x/Users/cwiles/iPhone Projects/Maps/RootViewController.xib
-o/SourceCache/GoogleMobileMaps_Sim/GoogleMobileMaps-243.1/googlenav/mac/TileStore.mm:81  SQL error: (1) table version has no column named locale
-o/SourceCache/GoogleMobileMaps_Sim/GoogleMobileMaps-243.1/googlenav/mac/TileStore.mm:99  SQL error: (1) no such column: locale
-o2010-03-22 22:44:50.681 Interface Builder Cocoa Touch Tool[46634:3a03] /SourceCache/GoogleMobileMaps_Sim/GoogleMobileMaps-243.1/googlenav/mac/TileStore.mm:189  WARNING:  database is incorrect version (expected:10, actual:0) (locale:en_US actual:(null)) /Users/cwiles/Library/Application Support/iPhone Simulator/User/Library/Caches/MapTiles/MapTiles.sqlitedb
-lSLF07#2@33"CompileXIB RootViewController.xib291008685#291008691#0(629"/SourceCache/GoogleMobileMaps_Sim/GoogleMobileMaps-243.1/googlenav/mac/TileStore.mm:81  SQL error: (1) table version has no column named locale/SourceCache/GoogleMobileMaps_Sim/GoogleMobileMaps-243.1/googlenav/mac/TileStore.mm:99  SQL error: (1) no such column: locale2010-03-22 22:44:50.681 Interface Builder Cocoa Touch Tool[46634:3a03] /SourceCache/GoogleMobileMaps_Sim/GoogleMobileMaps-243.1/googlenav/mac/TileStore.mm:189  WARNING:  database is incorrect version (expected:10, actual:0) (locale:en_US actual:(null)) /Users/cwiles/Library/Application Support/iPhone Simulator/User/Library/Caches/MapTiles/MapTiles.sqlitedb0(0#0#57"/Users/cwiles/iPhone Projects/Maps/RootViewController.xib4300911832#487"    cd "/Users/cwiles/iPhone Projects/Maps"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/RootViewController.nib" "/Users/cwiles/iPhone Projects/Maps/RootViewController.xib"0#
-
-CCompileXIB /Users/cwiles/Desktop/Maps/MainWindow.xib
-s290722001.851443
-e290722002.172071
-r1
-xCompileXIB
-x/Users/cwiles/Desktop/Maps/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib290722001#290722002#0(0"0(0#0#41"/Users/cwiles/Desktop/Maps/MainWindow.xib4300885448#443"    cd /Users/cwiles/Desktop/Maps    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/MainWindow.nib /Users/cwiles/Desktop/Maps/MainWindow.xib0#
-
-CCompileXIB /Users/cwiles/Desktop/Maps/RootViewController.xib
-s290727731.158931
-e290727733.634704
-r1
-xCompileXIB
-x/Users/cwiles/Desktop/Maps/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib290727731#290727733#0(0"0(0#0#49"/Users/cwiles/Desktop/Maps/RootViewController.xib4300885448#459"    cd /Users/cwiles/Desktop/Maps    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/RootViewController.nib /Users/cwiles/Desktop/Maps/RootViewController.xib0#
-
-CCpResource build/Debug-iphonesimulator/Maps.app/Three20.bundle ../External-Libraries/320/src/Three20.bundle
-s291008691.503180
-e291008691.980051
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Maps.app/Three20.bundle
-x../External-Libraries/320/src/Three20.bundle
-lSLF07#2@49"Copy ../External-Libraries/320/src/Three20.bundle291008691#291008691#0(0"0(0#0#79"/Users/cwiles/iPhone Projects/Maps/../External-Libraries/320/src/Three20.bundle4300911832#479"    cd "/Users/cwiles/iPhone Projects/Maps"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/cwiles/iPhone Projects/Maps/../External-Libraries/320/src/Three20.bundle" "/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app"0#
-
-CGenerateDSYMFile "/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app.dSYM" "/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/Maps"
-s290917975.478040
-e290917975.494315
-r1
-xGenerateDSYMFile
-x/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app.dSYM
-x/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/Maps
-lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/Maps.app.dSYM build/Debug-iphonesimulator/Maps.app/Maps290917975#290917975#0(0"0(0#0#76"/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/Maps4300885448#368"    cd "/Users/cwiles/iPhone Projects/Maps"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/Maps" -o "/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app.dSYM"0#
-
-CGenerateDSYMFile /Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app.dSYM /Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/Maps
-s290728471.635327
-e290728471.651597
-r1
-xGenerateDSYMFile
-x/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app.dSYM
-x/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/Maps
-lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/Maps.app.dSYM build/Debug-iphonesimulator/Maps.app/Maps290728471#290728471#0(0"0(0#0#68"/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/Maps4300885448#338"    cd /Users/cwiles/Desktop/Maps    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/Maps -o /Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app.dSYM0#
-
-CLd "/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/Maps" normal i386
-s291008693.282788
-e291008694.019982
-r0
-xLd
-x/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/Maps
-xnormal
-xi386
-oUndefined symbols:
-o  ".objc_class_name_MPMusicPlayerController", referenced from:
-o      literal-pointer@__OBJC@__cls_refs@MPMusicPlayerController in libThree20.a(TTPhotoViewController.o)
-o  ".objc_class_name_MPMediaItemCollection", referenced from:
-o      literal-pointer@__OBJC@__cls_refs@MPMediaItemCollection in libThree20.a(TTPhotoViewController.o)
-old: symbol(s) not found
-ocollect2: ld returned 1 exit status
-lSLF07#2@81"Link /Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/Maps291008693#291008694#0(411"Undefined symbols:  ".objc_class_name_MPMusicPlayerController", referenced from:      literal-pointer@__OBJC@__cls_refs@MPMusicPlayerController in libThree20.a(TTPhotoViewController.o)  ".objc_class_name_MPMediaItemCollection", referenced from:      literal-pointer@__OBJC@__cls_refs@MPMediaItemCollection in libThree20.a(TTPhotoViewController.o)ld: symbol(s) not foundcollect2: ld returned 1 exit status6(4@60"".objc_class_name_MPMusicPlayerController", referenced from:291008694#19#63#0(6@0"291008694#0#0#0#0#0"0(13@98"Literal-pointer@__OBJC@__cls_refs@MPMusicPlayerController in libThree20.a(TTPhotoViewController.o)291008694#82#105#0(6@0"291008694#0#0#0#0#0"0(4@58"".objc_class_name_MPMediaItemCollection", referenced from:291008694#187#61#0(6@0"291008694#0#0#0#0#0"0(13@96"Literal-pointer@__OBJC@__cls_refs@MPMediaItemCollection in libThree20.a(TTPhotoViewController.o)291008694#248#103#0(6@0"291008694#0#0#0#0#0"0(13@19"Symbol(s) not found291008694#351#24#0(6@0"291008694#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status291008694#375#36#0(6@0"291008694#0#0#0#0#0"0(0#0#0"4300911832#1026"    cd "/Users/cwiles/iPhone Projects/Maps"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk "-L/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator" "-F/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator" -filelist "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/Maps.LinkFileList" -mmacosx-version-min=10.5 -ObjC -all_load -lxml2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit "/Users/cwiles/iPhone Projects/External-Libraries/320/src/build/Debug-iphonesimulator/libThree20.a" -framework QuartzCore -o "/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/Maps"1#
-
-CLd /Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/Maps normal i386
-s290728471.611870
-e290728471.635201
-r1
-xLd
-x/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/Maps
-xnormal
-xi386
-lSLF07#2@73"Link /Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/Maps290728471#290728471#0(0"0(0#0#0"4300885448#831"    cd /Users/cwiles/Desktop/Maps    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator -F/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator -filelist /Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Objects-normal/i386/Maps.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o /Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/Maps0#
-
-CProcessInfoPlistFile "/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/Info.plist" Maps-Info.plist
-s291008685.070877
-e291008685.092389
-r1
-xProcessInfoPlistFile
-x/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/Info.plist
-xMaps-Info.plist
-lSLF07#2@23"Process Maps-Info.plist291008685#291008685#0(0"0(0#0#50"/Users/cwiles/iPhone Projects/Maps/Maps-Info.plist4300911832#464"    cd "/Users/cwiles/iPhone Projects/Maps"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Maps-Info.plist -genpkginfo "/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app/Info.plist"0#
-
-CProcessInfoPlistFile /Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/Info.plist Maps-Info.plist
-s290720426.279610
-e290720426.297919
-r1
-xProcessInfoPlistFile
-x/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/Info.plist
-xMaps-Info.plist
-lSLF07#2@23"Process Maps-Info.plist290720426#290720426#0(0"0(0#0#42"/Users/cwiles/Desktop/Maps/Maps-Info.plist27303536605069420#434"    cd /Users/cwiles/Desktop/Maps    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Maps-Info.plist -genpkginfo /Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app/Info.plist0#
-
-CProcessPCH /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Maps_Prefix-gveussbtcfkczjgfppuiaqreifhz/Maps_Prefix.pch.gch Maps_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s290720426.679780
-e290720427.791666
-r1
-xProcessPCH
-x/var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Maps_Prefix-gveussbtcfkczjgfppuiaqreifhz/Maps_Prefix.pch.gch
-xMaps_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Maps_Prefix.pch290720426#290720427#0(0"0(0#0#42"/Users/cwiles/Desktop/Maps/Maps_Prefix.pch4300885448#1574"    cd /Users/cwiles/Desktop/Maps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-generated-files.hmap -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-own-target-headers.hmap -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-all-target-headers.hmap -iquote /Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-project-headers.hmap -F/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources/i386 -I/Users/cwiles/Desktop/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources -c /Users/cwiles/Desktop/Maps/Maps_Prefix.pch -o /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Maps_Prefix-gveussbtcfkczjgfppuiaqreifhz/Maps_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-bftcpvwebqedkiatthruzmwatmjv/Maps_Prefix.pch.gch Maps_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s290888149.081566
-e290888150.711960
-r1
-xProcessPCH
-x/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-bftcpvwebqedkiatthruzmwatmjv/Maps_Prefix.pch.gch
-xMaps_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Maps_Prefix.pch290888149#290888150#0(0"0(0#0#50"/Users/cwiles/iPhone Projects/Maps/Maps_Prefix.pch4300911832#1690"    cd "/Users/cwiles/iPhone Projects/Maps"    setenv LANG en_US.US-ASCII    setenv PATH "/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperIPad/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/include" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources" -c "/Users/cwiles/iPhone Projects/Maps/Maps_Prefix.pch" -o /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-bftcpvwebqedkiatthruzmwatmjv/Maps_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-chsdehvynwffushfupxzczkisbcy/Maps_Prefix.pch.gch Maps_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s291008692.229111
-e291008692.943905
-r1
-xProcessPCH
-x/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-chsdehvynwffushfupxzczkisbcy/Maps_Prefix.pch.gch
-xMaps_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Maps_Prefix.pch291008692#291008692#0(0"0(0#0#50"/Users/cwiles/iPhone Projects/Maps/Maps_Prefix.pch4300911832#1975"    cd "/Users/cwiles/iPhone Projects/Maps"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/include" -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I../External-Libraries/320/src/JSON -I../External-Libraries/320/src/tests -I../External-Libraries/320/src/Three20 -I../External-Libraries/320/src/Three20.bundle -I../External-Libraries/320/src/Three20.bundle/images "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources" -c "/Users/cwiles/iPhone Projects/Maps/Maps_Prefix.pch" -o /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-chsdehvynwffushfupxzczkisbcy/Maps_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-dbjjovmefhplieavudlnsbckreat/Maps_Prefix.pch.gch Maps_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s290917974.455956
-e290917975.199389
-r1
-xProcessPCH
-x/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-dbjjovmefhplieavudlnsbckreat/Maps_Prefix.pch.gch
-xMaps_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Maps_Prefix.pch290917974#290917975#0(0"0(0#0#50"/Users/cwiles/iPhone Projects/Maps/Maps_Prefix.pch4300885448#1674"    cd "/Users/cwiles/iPhone Projects/Maps"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/include" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources" -c "/Users/cwiles/iPhone Projects/Maps/Maps_Prefix.pch" -o /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-dbjjovmefhplieavudlnsbckreat/Maps_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-faenzaxoohaltsgrjupjiavzcozi/Maps_Prefix.pch.gch Maps_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s290797697.416395
-e290797700.760071
-r1
-xProcessPCH
-x/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-faenzaxoohaltsgrjupjiavzcozi/Maps_Prefix.pch.gch
-xMaps_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Maps_Prefix.pch290797697#290797700#0(0"0(0#0#50"/Users/cwiles/iPhone Projects/Maps/Maps_Prefix.pch7011312367772722176#1690"    cd "/Users/cwiles/iPhone Projects/Maps"    setenv LANG en_US.US-ASCII    setenv PATH "/DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/DeveloperIPad/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /DeveloperIPad/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/Maps-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/include" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/Maps/build/Maps.build/Debug-iphonesimulator/Maps.build/DerivedSources" -c "/Users/cwiles/iPhone Projects/Maps/Maps_Prefix.pch" -o /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-faenzaxoohaltsgrjupjiavzcozi/Maps_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Maps_Prefix-ghyclryuslpmilackjtlsqncplsn/Maps_Prefix.pch.gch Maps_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CTouch "/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app"
-s291006576.025157
-e291006576.027921
-r1
-xTouch
-x/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app
-lSLF07#2@77"Touch /Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app291006576#291006576#0(0"0(0#0#0"4300885448#271"    cd "/Users/cwiles/iPhone Projects/Maps"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/cwiles/iPhone Projects/Maps/build/Debug-iphonesimulator/Maps.app"0#
-
-CTouch /Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app
-s290728471.651892
-e290728471.654646
-r1
-xTouch
-x/Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app
-lSLF07#2@69"Touch /Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app290728471#290728471#0(0"0(0#0#0"4300885448#251"    cd /Users/cwiles/Desktop/Maps    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cwiles/Desktop/Maps/build/Debug-iphonesimulator/Maps.app0#
-

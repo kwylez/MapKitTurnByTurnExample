@@ -1,617 +1,0 @@
-TMapKitTurnByTurnExample
-v7
-r0
-t302713404.066375
-cCheck dependencies
-cCpResource build/Debug-iphoneos/MapKitTurnByTurnExample.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/Info.plist MapKitTurnByTurnExample-Info.plist
-cCompileXIB /Users/cwiles/Desktop/Maps/MainWindow.xib
-cCompileXIB /Users/cwiles/Desktop/Maps/RootViewController.xib
-cCompileXIB /Users/cwiles/Desktop/Maps/GMapDirectionsView.xib
-cCpResource build/Debug-iphoneos/MapKitTurnByTurnExample.app/map.html map.html
-cCopyPNGFile /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/Icon.png Icon.png
-cProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-fcmxbqobzxgekeeozmljuqexvxzd/MapKitTurnByTurnExample_Prefix.pch.gch MapKitTurnByTurnExample_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-flylopdreitcbpdcoaulmaqzeesc/MapKitTurnByTurnExample_Prefix.pch.gch MapKitTurnByTurnExample_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/main.o /Users/cwiles/Desktop/Maps/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/MapsAppDelegate.o /Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/RootViewController.o /Users/cwiles/Desktop/Maps/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/Annotation.o /Users/cwiles/Desktop/Maps/Classes/Annotation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/GMapDirectionsViewController.o /Users/cwiles/Desktop/Maps/Classes/GMapDirectionsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/main.o /Users/cwiles/Desktop/Maps/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/MapsAppDelegate.o /Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/MapKitTurnByTurnExample normal armv6
-cCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/RootViewController.o /Users/cwiles/Desktop/Maps/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/Annotation.o /Users/cwiles/Desktop/Maps/Classes/Annotation.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/GMapDirectionsViewController.o /Users/cwiles/Desktop/Maps/Classes/GMapDirectionsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/MapKitTurnByTurnExample normal armv7
-cCreateUniversalBinary /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/MapKitTurnByTurnExample normal "armv6 armv7"
-cGenerateDSYMFile /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app.dSYM /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/MapKitTurnByTurnExample
-cProcessProductPackaging "/Users/cwiles/Library/MobileDevice/Provisioning Profiles/E2639891-11FC-484F-8411-67380641C90D.mobileprovision" /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/embedded.mobileprovision
-cTouch /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample.xcent
-cCodeSign /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
-c000000004C3F67160000000000000110
-t1279223574
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-c000000004C2A7DA700000000000001A7
-t1277853095
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-c000000004C2A7DA700000000000001E5
-t1277853095
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFE06FA000000000034A850
-t1274939130
-s3450960
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004C04706200000000000C1E70
-t1275359330
-s794224
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004C04705A00000000000001D0
-t1275359322
-s464
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFE07D200000000003E1EB0
-t1274939346
-s4071088
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFE07B10000000000001466
-t1274939313
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004C04800D00000000000002FE
-t1275363341
-s766
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004C0480330000000000267F90
-t1275363379
-s2523024
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C045AEF0000000000253180
-t1275353839
-s2437504
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C296E2A00000000000009CD
-t1277783594
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C296F120000000002D563E0
-t1277783826
-s47539168
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/Availability.h
-c000000004BF4D50E0000000000001A3B
-t1274336526
-s6715
-
-N/Users/cwiles/Desktop/Maps/Classes/Annotation.h
-c000000004BA3D96A000000000000028E
-t1269029226
-s654
-i<Foundation/Foundation.h>
-i<CoreLocation/CoreLocation.h>
-i<MapKit/MapKit.h>
-
-N/Users/cwiles/Desktop/Maps/Classes/Annotation.m
-c000000004BBAB7050000000000000265
-t1270527749
-s613
-i"Annotation.h"
-
-N/Users/cwiles/Desktop/Maps/Classes/GMapDirectionsViewController.h
-c000000004BBAB714000000000000035B
-t1270527764
-s859
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/Desktop/Maps/Classes/GMapDirectionsViewController.m
-c000000004C5AD2980000000000000BAB
-t1281020568
-s2987
-i"GMapDirectionsViewController.h"
-
-N/Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.h
-c000000004BA3CBE100000000000001AB
-t1269025761
-s427
-
-N/Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m
-c000000004BA3CBE10000000000000324
-t1269025761
-s804
-i"MapsAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/cwiles/Desktop/Maps/Classes/RootViewController.h
-c000000004BB252E700000000000003A9
-t1269977831
-s937
-i<MapKit/MapKit.h>
-i"RootViewController.h"
-i"GMapDirectionsViewController.h"
-i<CoreLocation/CoreLocation.h>
-
-N/Users/cwiles/Desktop/Maps/Classes/RootViewController.m
-c000000004C5AD27F0000000000001105
-t1281020543
-s4357
-i"RootViewController.h"
-i"Annotation.h"
-
-N/Users/cwiles/Desktop/Maps/GMapDirectionsView.xib
-c000000004C5AD25F00000000000064C0
-t1281020511
-s25792
-
-N/Users/cwiles/Desktop/Maps/Icon.png
-c000000004BBCA6010000000000001E50
-t1270654465
-s7760
-
-N/Users/cwiles/Desktop/Maps/MainWindow.xib
-c000000004C5AD25F000000000000678F
-t1281020511
-s26511
-
-N/Users/cwiles/Desktop/Maps/MapKitTurnByTurnExample_Prefix.pch
-c000000004BA3CBE1000000000000013A
-t1269025761
-s314
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/Desktop/Maps/RootViewController.xib
-c000000004BA3EA6600000000000043A4
-t1269033574
-s17316
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app
-t1281020604
-s476
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app.dSYM
-t1281020603
-s102
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/GMapDirectionsView.nib
-t1281020601
-s2938
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/Icon.png
-t1281020601
-s8016
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/Info.plist
-t1281020600
-s796
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/MainWindow.nib
-t1281020601
-s2651
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/MapKitTurnByTurnExample
-t1281020603
-s93848
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/PkgInfo
-t1281020600
-s8
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/ResourceRules.plist
-t1281020600
-s485
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/RootViewController.nib
-t1281020601
-s1954
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/embedded.mobileprovision
-t1281020603
-s7894
-
-N/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/map.html
-t1281020601
-s2669
-
-N/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample.xcent
-t1281020603
-s452
-
-N/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/Annotation.o
-t1281020603
-s13496
-
-N/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/GMapDirectionsViewController.o
-t1281020603
-s60076
-
-N/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/MapKitTurnByTurnExample
-t1281020603
-s44696
-
-N/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/MapKitTurnByTurnExample.LinkFileList
-c000000004C5AD2B800000000000002DF
-t1281020600
-s735
-
-N/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/MapsAppDelegate.o
-t1281020603
-s47400
-
-N/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/RootViewController.o
-t1281020603
-s57608
-
-N/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/main.o
-t1281020603
-s6416
-
-N/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/Annotation.o
-t1281020603
-s13376
-
-N/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/GMapDirectionsViewController.o
-t1281020603
-s59748
-
-N/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/MapKitTurnByTurnExample
-t1281020603
-s44696
-
-N/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/MapKitTurnByTurnExample.LinkFileList
-c000000004C5AD2B800000000000002DF
-t1281020600
-s735
-
-N/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/MapsAppDelegate.o
-t1281020603
-s47328
-
-N/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/RootViewController.o
-t1281020603
-s57224
-
-N/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/main.o
-t1281020603
-s6400
-
-N/Users/cwiles/Desktop/Maps/main.m
-c000000004BA3CBE10000000000000160
-t1269025761
-s352
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/Desktop/Maps/map.html
-c000000004BB2A83D0000000000000A6D
-t1269999677
-s2669
-
-N/Users/cwiles/Library/MobileDevice/Provisioning Profiles/E2639891-11FC-484F-8411-67380641C90D.mobileprovision
-c000000004C34BE440000000000001ED6
-t1278524996
-s7894
-
-N/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-fcmxbqobzxgekeeozmljuqexvxzd/MapKitTurnByTurnExample_Prefix.pch.gch
-t1281020602
-s9852464
-
-N/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-flylopdreitcbpdcoaulmaqzeesc/MapKitTurnByTurnExample_Prefix.pch.gch
-t1281020602
-s10311216
-
-NMapKitTurnByTurnExample-Info.plist
-c000000004BA3CBE1000000000000038D
-t1269025761
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies302713400#302713400#0(0"0(0#1#0"8615828096#0"0#
-
-CCodeSign /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app
-s302713403.694091
-e302713404.066329
-r1
-xCodeSign
-x/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app
-lSLF07#2@57"CodeSign build/Debug-iphoneos/MapKitTurnByTurnExample.app302713403#302713404#0(0"0(0#0#75"/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app8616670496#678"    cd /Users/cwiles/Desktop/Maps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Cory Wiles (98422P78Z5)" --resource-rules=/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/ResourceRules.plist --entitlements /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample.xcent /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app0#
-
-CCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/Annotation.o /Users/cwiles/Desktop/Maps/Classes/Annotation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s302713403.052722
-e302713403.131131
-r1
-xCompileC
-xbuild/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/Annotation.o
-x/Users/cwiles/Desktop/Maps/Classes/Annotation.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/cwiles/Desktop/Maps/Classes/Annotation.m302713403#302713403#0(0"0(0#0#47"/Users/cwiles/Desktop/Maps/Classes/Annotation.m8616409216#2017"    cd /Users/cwiles/Desktop/Maps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-generated-files.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-own-target-headers.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-all-target-headers.hmap -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-project-headers.hmap -F/Users/cwiles/Desktop/Maps/build/Debug-iphoneos -I/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources/armv6 -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-fcmxbqobzxgekeeozmljuqexvxzd/MapKitTurnByTurnExample_Prefix.pch -c /Users/cwiles/Desktop/Maps/Classes/Annotation.m -o /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/Annotation.o0#
-
-CCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/GMapDirectionsViewController.o /Users/cwiles/Desktop/Maps/Classes/GMapDirectionsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s302713403.131238
-e302713403.245222
-r1
-xCompileC
-xbuild/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/GMapDirectionsViewController.o
-x/Users/cwiles/Desktop/Maps/Classes/GMapDirectionsViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/cwiles/Desktop/Maps/Classes/GMapDirectionsViewController.m302713403#302713403#0(0"0(0#0#65"/Users/cwiles/Desktop/Maps/Classes/GMapDirectionsViewController.m8599671136#2053"    cd /Users/cwiles/Desktop/Maps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-generated-files.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-own-target-headers.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-all-target-headers.hmap -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-project-headers.hmap -F/Users/cwiles/Desktop/Maps/build/Debug-iphoneos -I/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources/armv6 -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-fcmxbqobzxgekeeozmljuqexvxzd/MapKitTurnByTurnExample_Prefix.pch -c /Users/cwiles/Desktop/Maps/Classes/GMapDirectionsViewController.m -o /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/GMapDirectionsViewController.o0#
-
-CCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/MapsAppDelegate.o /Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s302713402.962335
-e302713403.052611
-r1
-xCompileC
-xbuild/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/MapsAppDelegate.o
-x/Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m302713402#302713403#0(0"0(0#0#52"/Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m8613914176#2027"    cd /Users/cwiles/Desktop/Maps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-generated-files.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-own-target-headers.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-all-target-headers.hmap -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-project-headers.hmap -F/Users/cwiles/Desktop/Maps/build/Debug-iphoneos -I/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources/armv6 -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-fcmxbqobzxgekeeozmljuqexvxzd/MapKitTurnByTurnExample_Prefix.pch -c /Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m -o /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/MapsAppDelegate.o0#
-
-CCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/RootViewController.o /Users/cwiles/Desktop/Maps/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s302713403.024284
-e302713403.175913
-r1
-xCompileC
-xbuild/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/RootViewController.o
-x/Users/cwiles/Desktop/Maps/Classes/RootViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/cwiles/Desktop/Maps/Classes/RootViewController.m302713403#302713403#0(0"0(0#0#55"/Users/cwiles/Desktop/Maps/Classes/RootViewController.m8616833568#2033"    cd /Users/cwiles/Desktop/Maps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-generated-files.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-own-target-headers.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-all-target-headers.hmap -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-project-headers.hmap -F/Users/cwiles/Desktop/Maps/build/Debug-iphoneos -I/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources/armv6 -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-fcmxbqobzxgekeeozmljuqexvxzd/MapKitTurnByTurnExample_Prefix.pch -c /Users/cwiles/Desktop/Maps/Classes/RootViewController.m -o /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/RootViewController.o0#
-
-CCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/main.o /Users/cwiles/Desktop/Maps/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s302713402.961043
-e302713403.024177
-r1
-xCompileC
-xbuild/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/main.o
-x/Users/cwiles/Desktop/Maps/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@41"Compile /Users/cwiles/Desktop/Maps/main.m302713402#302713403#0(0"0(0#0#33"/Users/cwiles/Desktop/Maps/main.m8616332704#1997"    cd /Users/cwiles/Desktop/Maps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-generated-files.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-own-target-headers.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-all-target-headers.hmap -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-project-headers.hmap -F/Users/cwiles/Desktop/Maps/build/Debug-iphoneos -I/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources/armv6 -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-fcmxbqobzxgekeeozmljuqexvxzd/MapKitTurnByTurnExample_Prefix.pch -c /Users/cwiles/Desktop/Maps/main.m -o /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/Annotation.o /Users/cwiles/Desktop/Maps/Classes/Annotation.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s302713403.376766
-e302713403.459842
-r1
-xCompileC
-xbuild/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/Annotation.o
-x/Users/cwiles/Desktop/Maps/Classes/Annotation.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/cwiles/Desktop/Maps/Classes/Annotation.m302713403#302713403#0(0"0(0#0#47"/Users/cwiles/Desktop/Maps/Classes/Annotation.m8615750048#2017"    cd /Users/cwiles/Desktop/Maps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-generated-files.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-own-target-headers.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-all-target-headers.hmap -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-project-headers.hmap -F/Users/cwiles/Desktop/Maps/build/Debug-iphoneos -I/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources/armv7 -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-flylopdreitcbpdcoaulmaqzeesc/MapKitTurnByTurnExample_Prefix.pch -c /Users/cwiles/Desktop/Maps/Classes/Annotation.m -o /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/Annotation.o0#
-
-CCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/GMapDirectionsViewController.o /Users/cwiles/Desktop/Maps/Classes/GMapDirectionsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s302713403.459948
-e302713403.551159
-r1
-xCompileC
-xbuild/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/GMapDirectionsViewController.o
-x/Users/cwiles/Desktop/Maps/Classes/GMapDirectionsViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/cwiles/Desktop/Maps/Classes/GMapDirectionsViewController.m302713403#302713403#0(0"0(0#0#65"/Users/cwiles/Desktop/Maps/Classes/GMapDirectionsViewController.m8615624640#2053"    cd /Users/cwiles/Desktop/Maps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-generated-files.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-own-target-headers.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-all-target-headers.hmap -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-project-headers.hmap -F/Users/cwiles/Desktop/Maps/build/Debug-iphoneos -I/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources/armv7 -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-flylopdreitcbpdcoaulmaqzeesc/MapKitTurnByTurnExample_Prefix.pch -c /Users/cwiles/Desktop/Maps/Classes/GMapDirectionsViewController.m -o /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/GMapDirectionsViewController.o0#
-
-CCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/MapsAppDelegate.o /Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s302713403.243108
-e302713403.335335
-r1
-xCompileC
-xbuild/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/MapsAppDelegate.o
-x/Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m302713403#302713403#0(0"0(0#0#52"/Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m8615713184#2027"    cd /Users/cwiles/Desktop/Maps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-generated-files.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-own-target-headers.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-all-target-headers.hmap -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-project-headers.hmap -F/Users/cwiles/Desktop/Maps/build/Debug-iphoneos -I/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources/armv7 -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-flylopdreitcbpdcoaulmaqzeesc/MapKitTurnByTurnExample_Prefix.pch -c /Users/cwiles/Desktop/Maps/Classes/MapsAppDelegate.m -o /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/MapsAppDelegate.o0#
-
-CCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/RootViewController.o /Users/cwiles/Desktop/Maps/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s302713403.335442
-e302713403.470220
-r1
-xCompileC
-xbuild/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/RootViewController.o
-x/Users/cwiles/Desktop/Maps/Classes/RootViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/cwiles/Desktop/Maps/Classes/RootViewController.m302713403#302713403#0(0"0(0#0#55"/Users/cwiles/Desktop/Maps/Classes/RootViewController.m8616503168#2033"    cd /Users/cwiles/Desktop/Maps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-generated-files.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-own-target-headers.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-all-target-headers.hmap -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-project-headers.hmap -F/Users/cwiles/Desktop/Maps/build/Debug-iphoneos -I/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources/armv7 -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-flylopdreitcbpdcoaulmaqzeesc/MapKitTurnByTurnExample_Prefix.pch -c /Users/cwiles/Desktop/Maps/Classes/RootViewController.m -o /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/RootViewController.o0#
-
-CCompileC build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/main.o /Users/cwiles/Desktop/Maps/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s302713403.176011
-e302713403.243009
-r1
-xCompileC
-xbuild/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/main.o
-x/Users/cwiles/Desktop/Maps/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@41"Compile /Users/cwiles/Desktop/Maps/main.m302713403#302713403#0(0"0(0#0#33"/Users/cwiles/Desktop/Maps/main.m8615788448#1997"    cd /Users/cwiles/Desktop/Maps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-generated-files.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-own-target-headers.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-all-target-headers.hmap -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-project-headers.hmap -F/Users/cwiles/Desktop/Maps/build/Debug-iphoneos -I/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources/armv7 -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-flylopdreitcbpdcoaulmaqzeesc/MapKitTurnByTurnExample_Prefix.pch -c /Users/cwiles/Desktop/Maps/main.m -o /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/main.o0#
-
-CCompileXIB /Users/cwiles/Desktop/Maps/GMapDirectionsView.xib
-s302713401.029628
-e302713402.071550
-r1
-xCompileXIB
-x/Users/cwiles/Desktop/Maps/GMapDirectionsView.xib
-lSLF07#2@33"CompileXIB GMapDirectionsView.xib302713401#302713402#0(0"0(0#0#49"/Users/cwiles/Desktop/Maps/GMapDirectionsView.xib8616527744#538"    cd /Users/cwiles/Desktop/Maps    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/GMapDirectionsView.nib /Users/cwiles/Desktop/Maps/GMapDirectionsView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/cwiles/Desktop/Maps/MainWindow.xib
-s302713400.414262
-e302713401.029537
-r1
-xCompileXIB
-x/Users/cwiles/Desktop/Maps/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib302713400#302713401#0(0"0(0#0#41"/Users/cwiles/Desktop/Maps/MainWindow.xib8618334144#522"    cd /Users/cwiles/Desktop/Maps    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/MainWindow.nib /Users/cwiles/Desktop/Maps/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/cwiles/Desktop/Maps/RootViewController.xib
-s302713400.416211
-e302713401.060250
-r1
-xCompileXIB
-x/Users/cwiles/Desktop/Maps/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib302713400#302713401#0(0"0(0#0#49"/Users/cwiles/Desktop/Maps/RootViewController.xib8618324128#538"    cd /Users/cwiles/Desktop/Maps    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/RootViewController.nib /Users/cwiles/Desktop/Maps/RootViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCopyPNGFile /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/Icon.png Icon.png
-s302713401.061045
-e302713401.335318
-r1
-xCopyPNGFile
-x/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/Icon.png
-xIcon.png
-lSLF07#2@78"CopyPNGFile build/Debug-iphoneos/MapKitTurnByTurnExample.app/Icon.png Icon.png302713401#302713401#0(0"0(0#0#35"/Users/cwiles/Desktop/Maps/Icon.png8616313152#536"    cd /Users/cwiles/Desktop/Maps    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cwiles/Desktop/Maps/Icon.png /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/Icon.png0#
-
-CCpResource build/Debug-iphoneos/MapKitTurnByTurnExample.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-s302713400.402483
-e302713400.414176
-r1
-xCpResource
-xbuild/Debug-iphoneos/MapKitTurnByTurnExample.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist302713400#302713400#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8616662496#472"    cd /Users/cwiles/Desktop/Maps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app0#
-
-CCpResource build/Debug-iphoneos/MapKitTurnByTurnExample.app/map.html map.html
-s302713401.060341
-e302713401.065276
-r1
-xCpResource
-xbuild/Debug-iphoneos/MapKitTurnByTurnExample.app/map.html
-xmap.html
-lSLF07#2@13"Copy map.html302713401#302713401#0(0"0(0#0#35"/Users/cwiles/Desktop/Maps/map.html8616418016#418"    cd /Users/cwiles/Desktop/Maps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/cwiles/Desktop/Maps/map.html /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app0#
-
-CCreateUniversalBinary /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/MapKitTurnByTurnExample normal "armv6 armv7"
-s302713403.626980
-e302713403.631562
-r1
-xCreateUniversalBinary
-x/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/MapKitTurnByTurnExample
-xnormal
-xarmv6 armv7
-lSLF07#2@115"CreateUniversalBinary build/Debug-iphoneos/MapKitTurnByTurnExample.app/MapKitTurnByTurnExample normal "armv6 armv7"302713403#302713403#0(0"0(0#0#38"/Users/cwiles/Desktop/Maps/armv6 armv78615284064#598"    cd /Users/cwiles/Desktop/Maps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/MapKitTurnByTurnExample /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/MapKitTurnByTurnExample -output /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/MapKitTurnByTurnExample0#
-
-CGenerateDSYMFile /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app.dSYM /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/MapKitTurnByTurnExample
-s302713403.631661
-e302713403.671725
-r1
-xGenerateDSYMFile
-x/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app.dSYM
-x/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/MapKitTurnByTurnExample
-lSLF07#2@143"GenerateDSYMFile build/Debug-iphoneos/MapKitTurnByTurnExample.app.dSYM build/Debug-iphoneos/MapKitTurnByTurnExample.app/MapKitTurnByTurnExample302713403#302713403#0(0"0(0#0#99"/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/MapKitTurnByTurnExample8614999424#374"    cd /Users/cwiles/Desktop/Maps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/MapKitTurnByTurnExample -o /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app.dSYM0#
-
-CLd /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/MapKitTurnByTurnExample normal armv6
-s302713403.245344
-e302713403.376657
-r1
-xLd
-x/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/MapKitTurnByTurnExample
-xnormal
-xarmv6
-lSLF07#2@157"Link /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/MapKitTurnByTurnExample302713403#302713403#0(0"0(0#0#0"8615568224#982"    cd /Users/cwiles/Desktop/Maps    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/cwiles/Desktop/Maps/build/Debug-iphoneos -F/Users/cwiles/Desktop/Maps/build/Debug-iphoneos -filelist /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/MapKitTurnByTurnExample.LinkFileList -dead_strip -ObjC -all_load -lxml2 -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -framework QuartzCore -o /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv6/MapKitTurnByTurnExample0#
-
-CLd /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/MapKitTurnByTurnExample normal armv7
-s302713403.551249
-e302713403.626759
-r1
-xLd
-x/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/MapKitTurnByTurnExample
-xnormal
-xarmv7
-lSLF07#2@157"Link /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/MapKitTurnByTurnExample302713403#302713403#0(0"0(0#0#0"8601174368#982"    cd /Users/cwiles/Desktop/Maps    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/cwiles/Desktop/Maps/build/Debug-iphoneos -F/Users/cwiles/Desktop/Maps/build/Debug-iphoneos -filelist /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/MapKitTurnByTurnExample.LinkFileList -dead_strip -ObjC -all_load -lxml2 -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -framework QuartzCore -o /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/Objects-normal/armv7/MapKitTurnByTurnExample0#
-
-CProcessInfoPlistFile /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/Info.plist MapKitTurnByTurnExample-Info.plist
-s302713400.404891
-e302713400.409068
-r1
-xProcessInfoPlistFile
-x/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/Info.plist
-xMapKitTurnByTurnExample-Info.plist
-lSLF07#2@42"Process MapKitTurnByTurnExample-Info.plist302713400#302713400#0(0"0(0#0#61"/Users/cwiles/Desktop/Maps/MapKitTurnByTurnExample-Info.plist8618430848#578"    cd /Users/cwiles/Desktop/Maps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MapKitTurnByTurnExample-Info.plist -genpkginfo /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/ResourceRules.plist -o /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/Info.plist0#
-
-CProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-fcmxbqobzxgekeeozmljuqexvxzd/MapKitTurnByTurnExample_Prefix.pch.gch MapKitTurnByTurnExample_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s302713402.071788
-e302713402.914397
-r1
-xProcessPCH
-x/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-fcmxbqobzxgekeeozmljuqexvxzd/MapKitTurnByTurnExample_Prefix.pch.gch
-xMapKitTurnByTurnExample_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@45"Precompile MapKitTurnByTurnExample_Prefix.pch302713402#302713402#0(0"0(0#0#61"/Users/cwiles/Desktop/Maps/MapKitTurnByTurnExample_Prefix.pch8614171904#1891"    cd /Users/cwiles/Desktop/Maps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-generated-files.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-own-target-headers.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-all-target-headers.hmap -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-project-headers.hmap -F/Users/cwiles/Desktop/Maps/build/Debug-iphoneos -I/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources/armv6 -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources -c /Users/cwiles/Desktop/Maps/MapKitTurnByTurnExample_Prefix.pch -o /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-fcmxbqobzxgekeeozmljuqexvxzd/MapKitTurnByTurnExample_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-flylopdreitcbpdcoaulmaqzeesc/MapKitTurnByTurnExample_Prefix.pch.gch MapKitTurnByTurnExample_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s302713402.072761
-e302713402.960905
-r1
-xProcessPCH
-x/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-flylopdreitcbpdcoaulmaqzeesc/MapKitTurnByTurnExample_Prefix.pch.gch
-xMapKitTurnByTurnExample_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@45"Precompile MapKitTurnByTurnExample_Prefix.pch302713402#302713402#0(0"0(0#0#61"/Users/cwiles/Desktop/Maps/MapKitTurnByTurnExample_Prefix.pch8618393152#1891"    cd /Users/cwiles/Desktop/Maps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-generated-files.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-own-target-headers.hmap -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-all-target-headers.hmap -iquote /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample-project-headers.hmap -F/Users/cwiles/Desktop/Maps/build/Debug-iphoneos -I/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I../External-Libraries/320/src -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources/armv7 -I/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/DerivedSources -c /Users/cwiles/Desktop/Maps/MapKitTurnByTurnExample_Prefix.pch -o /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MapKitTurnByTurnExample_Prefix-flylopdreitcbpdcoaulmaqzeesc/MapKitTurnByTurnExample_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/cwiles/Library/MobileDevice/Provisioning Profiles/E2639891-11FC-484F-8411-67380641C90D.mobileprovision" /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/embedded.mobileprovision
-s302713403.671851
-e302713403.673305
-r1
-xProcessProductPackaging
-x/Users/cwiles/Library/MobileDevice/Provisioning Profiles/E2639891-11FC-484F-8411-67380641C90D.mobileprovision
-x/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/embedded.mobileprovision
-lSLF07#2@209"ProcessProductPackaging "/Users/cwiles/Library/MobileDevice/Provisioning Profiles/E2639891-11FC-484F-8411-67380641C90D.mobileprovision" build/Debug-iphoneos/MapKitTurnByTurnExample.app/embedded.mobileprovision302713403#302713403#0(0"0(0#0#100"/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/embedded.mobileprovision8614668416#416"    cd /Users/cwiles/Desktop/Maps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/cwiles/Library/MobileDevice/Provisioning Profiles/E2639891-11FC-484F-8411-67380641C90D.mobileprovision" -o /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample.xcent
-s302713403.676307
-e302713403.694020
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-x/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample.xcent
-lSLF07#2@223"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample.xcent302713403#302713403#0(0"0(0#0#137"/Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample.xcent8614255616#456"    cd /Users/cwiles/Desktop/Maps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/cwiles/Desktop/Maps/build/MapKitTurnByTurnExample.build/Debug-iphoneos/MapKitTurnByTurnExample.build/MapKitTurnByTurnExample.xcent0#
-
-CTouch /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app
-s302713403.673358
-e302713403.676220
-r1
-xTouch
-x/Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app
-lSLF07#2@81"Touch /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app302713403#302713403#0(0"0(0#0#0"8614624704#256"    cd /Users/cwiles/Desktop/Maps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cwiles/Desktop/Maps/build/Debug-iphoneos/MapKitTurnByTurnExample.app0#
-
