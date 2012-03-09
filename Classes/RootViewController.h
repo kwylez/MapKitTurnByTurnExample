@@ -18,14 +18,14 @@
 @interface RootViewController : UIViewController<CLLocationManagerDelegate, MKMapViewDelegate, CLLocationManagerDelegate> {
 
   MKMapView *_mapView;
-  Annotation *_newAnnotation;
+  Annotation *_mapAnnotation;
   CLLocationManager *_locationManager;
   NSString *_lat;
   NSString *_long;
 }
 
 @property(nonatomic, retain) IBOutlet MKMapView *mapView;
-@property(nonatomic, retain) Annotation *newAnnotation;
+@property(nonatomic, retain) Annotation *mapAnnotation;
 @property(nonatomic, retain) CLLocationManager *locationManager;
 @property(nonatomic, retain) NSString *_lat;
 @property(nonatomic, retain) NSString *_long;
